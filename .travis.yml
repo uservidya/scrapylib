@@ -6,7 +6,8 @@ env:
   - TOXENV=pypy
   - TOXENV=py33
   global:
-    secure: AH7OJHftdepv1GFzZw7bYV7c0/8/lDHwcthszo3t83Oh5gnPJiijA4W64gqivdjt/qHRO+7NB+NOXK8ejtVRFTbc4UNzplzATw6MpwrsrBIeQ422lp6EGXNL+XqvNmwXC7e4Uwfl70y81z1hpiQI8pe/aFnyMs21N91do2zIfLM=
+    secure: OamHcXNykh5o/PUpy1GvzBH8Iyp+hmcwv1k8vjpSCuJfeFMvt94Y4LNkfQwGXNRiHQRNZ9UIYFy4U7Hnrq2RwIPqW+CdxVOK4caZnCTZR6fNL1pX9toKJIjHS+HWpilU0XlZGCIzTR+o5CSSo/L9TZ2iHArJnQxfFMMshJs5Ai11/Hdy6mJfqYaUqz0cNXzamNnWOCwzpJZV6dunQv2xy0Ie+YAS+B0PvLqNWSvky1oASA1i1TnlAUuqvA8swKpzCoi5YgYAGkr71vZPe4+Vds0Ng4NrWSyKiL1i1DVQH4xZqA/6KkP+ZCBOn27ELjxARsmKyz3NK/xMaihqQHcSOg==
+   # secure: AH7OJHftdepv1GFzZw7bYV7c0/8/lDHwcthszo3t83Oh5gnPJiijA4W64gqivdjt/qHRO+7NB+NOXK8ejtVRFTbc4UNzplzATw6MpwrsrBIeQ422lp6EGXNL+XqvNmwXC7e4Uwfl70y81z1hpiQI8pe/aFnyMs21N91do2zIfLM=
 matrix:
   allow_failures:
   - env: TOXENV=py33
